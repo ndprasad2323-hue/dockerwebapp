@@ -11,7 +11,7 @@ services:
       - mynetwork
 
   application:
-    image: shaikmustafa/deepika:app
+    image: ndprasad23/java23:db
     ports:
       - "1111:8080"
     deploy:
